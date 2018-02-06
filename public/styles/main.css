@@ -1,0 +1,14 @@
+.programmes h1 {
+    margin-left: 15px;
+}
+.programmes img {
+    float: left;
+    margin-right: 10px;
+}
+.programmes .list-group-item {
+    clear: both;
+    border: 0;
+}
+.programmes h3 {
+    margin-top: 0;
+}

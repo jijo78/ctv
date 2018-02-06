@@ -1,0 +1,559 @@
+{
+    "_embedded": {
+        "programmes": [
+            {
+                "id": "2/2898",
+                "title": "Who's Doing the Dishes",
+                "synopses": {
+                    "ninety": "Will our contestants get a cash prize, or will they end up doing the dishes?",
+                    "epg": "Four dinner party guests go to the house of a mystery celebrity. Will our contestants guess the celebrity and get a cash prize, or will they end up doing the dishes?"
+                },
+                "_embedded": {
+                    "productions": {
+                        "count": 21,
+                        "_links": {
+                            "doc:productions": {
+                                "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/productions?broadcaster=itv&programmeId=2_2898"
+                            }
+                        }
+                    },
+                    "latestProduction": {
+                        "productionId": "2/2898/0032#001",
+                        "productionType": "PROGRAMME",
+                        "episodeId": "2/2898/0032",
+                        "episodeTitle": "Nancy Sorrell",
+                        "duration": {
+                            "iso8601": "PT1H",
+                            "display": "60 mins"
+                        },
+                        "broadcastDateTime": {
+                            "commissioning": "2018-02-05T10:10Z",
+                            "original": "2015-09-07T14:00Z"
+                        },
+                        "series": 2,
+                        "episode": 1,
+                        "synopses": {
+                            "ninety": "Today, Vic Reeves' wife Nancy Sorrell plays mystery dinner party host.",
+                            "epg": "Brian McFadden presents the dining challenge show. Today, Vic Reeves' wife Nancy Sorrell plays mystery dinner party host to four strangers in her Kent home."
+                        },
+                        "visuallySigned": false,
+                        "_embedded": {
+                            "categories": [
+                                {
+                                    "name": "Entertainment",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Entertainment"
+                                        }
+                                    }
+                                }
+                            ],
+                            "channel": {
+                                "name": "ITV2",
+                                "strapline": "TV. And then some.",
+                                "_links": {
+                                    "playlist": {
+                                        "href": "http://magni.itv.com/playlist/itvonline/ITV2"
+                                    },
+                                    "primaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+                                    },
+                                    "secondaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "dogImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "backgroundImage": {
+                                        "href": "http://mercury.itv.com/DotCom/episode/sim2/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}"
+                                    },
+                                    "doc:programmes": {
+                                        "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&channelId=itv2"
+                                    }
+                                }
+                            },
+                            "variantAvailability": [
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-05T11:10Z",
+                                    "until": "2018-03-07T23:59Z",
+                                    "features": [
+                                        "mpeg-dash"
+                                    ],
+                                    "requiresAds": false
+                                },
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-05T11:10Z",
+                                    "until": "2018-03-07T23:59Z",
+                                    "features": [
+                                        "mpeg-dash",
+                                        "clearkey",
+                                        "progressive"
+                                    ],
+                                    "requiresAds": false
+                                }
+                            ]
+                        },
+                        "_links": {
+                            "image": {
+                                "href": "http://mercury.itv.com/amazonfiretv/production/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}&productionId=2%2F2898%2F0032%23001",
+                                "templated": true
+                            },
+                            "playlist": {
+                                "href": "http://magni.itv.com/playlist/itvonline/ITV2/2_2898_0032.001"
+                            }
+                        }
+                    },
+                    "keywords": []
+                }
+            },
+            {
+                "id": "2/4259",
+                "title": "Family Guy",
+                "synopses": {
+                    "ninety": "A dysfunctional family strive to cope with everyday life.",
+                    "epg": "In a wacky Rhode Island town, a dysfunctional family strive to cope with everyday life as they are thrown from one crazy scenario to another."
+                },
+                "_embedded": {
+                    "productions": {
+                        "count": 8,
+                        "_links": {
+                            "doc:productions": {
+                                "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/productions?broadcaster=itv&programmeId=2_4259"
+                            }
+                        }
+                    },
+                    "latestProduction": {
+                        "productionId": "2/4259/0035#001",
+                        "productionType": "PROGRAMME",
+                        "episodeId": "2/4259/0035",
+                        "episodeTitle": "Lethal Weapons",
+                        "duration": {
+                            "iso8601": "PT30M",
+                            "display": "30 mins"
+                        },
+                        "broadcastDateTime": {
+                            "commissioning": "2018-02-04T22:00Z",
+                            "original": "2016-03-28T21:00Z"
+                        },
+                        "series": 3,
+                        "episode": 7,
+                        "synopses": {
+                            "ninety": "Animated comedy. New Yorkers invade Quahog to look at the autumn leaves.",
+                            "epg": "Animated comedy about US family life. Bonnie convinces Lois to join her Tae-Jitsu class. Quahog is invaded by New York 'leafers' looking at the pretty autumn leaves."
+                        },
+                        "guidance": "Contains violence and adult humour.",
+                        "visuallySigned": false,
+                        "_embedded": {
+                            "categories": [
+                                {
+                                    "name": "Comedy",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Comedy"
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "Entertainment",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Entertainment"
+                                        }
+                                    }
+                                }
+                            ],
+                            "channel": {
+                                "name": "ITV2",
+                                "strapline": "TV. And then some.",
+                                "_links": {
+                                    "playlist": {
+                                        "href": "http://magni.itv.com/playlist/itvonline/ITV2"
+                                    },
+                                    "primaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+                                    },
+                                    "secondaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "dogImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "backgroundImage": {
+                                        "href": "http://mercury.itv.com/DotCom/episode/sim2/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}"
+                                    },
+                                    "doc:programmes": {
+                                        "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&channelId=itv2"
+                                    }
+                                }
+                            },
+                            "variantAvailability": [
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T22:30Z",
+                                    "until": "2018-02-11T23:59Z",
+                                    "features": [
+                                        "mpeg-dash"
+                                    ],
+                                    "requiresAds": true
+                                },
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T22:30Z",
+                                    "until": "2018-02-11T23:59Z",
+                                    "features": [
+                                        "mpeg-dash",
+                                        "clearkey",
+                                        "progressive"
+                                    ],
+                                    "requiresAds": true
+                                }
+                            ]
+                        },
+                        "_links": {
+                            "image": {
+                                "href": "http://mercury.itv.com/amazonfiretv/production/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}&productionId=2%2F4259%2F0035%23001",
+                                "templated": true
+                            },
+                            "playlist": {
+                                "href": "http://magni.itv.com/playlist/itvonline/ITV2/2_4259_0035.001"
+                            }
+                        }
+                    },
+                    "keywords": []
+                }
+            },
+            {
+                "id": "2/3296",
+                "title": "Ibiza Weekender",
+                "synopses": {
+                    "ninety": "The Weekender returns and this time we are going to Ibiza!",
+                    "epg": "The Weekender returns and this time we are going to Ibiza! The cast will grow, giving us more scope for soap opera storylines."
+                },
+                "_embedded": {
+                    "productions": {
+                        "count": 5,
+                        "_links": {
+                            "doc:productions": {
+                                "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/productions?broadcaster=itv&programmeId=2_3296"
+                            }
+                        }
+                    },
+                    "latestProduction": {
+                        "productionId": "2/3296/0031#001",
+                        "productionType": "PROGRAMME",
+                        "episodeId": "2/3296/0031",
+                        "duration": {
+                            "iso8601": "PT1H",
+                            "display": "60 mins"
+                        },
+                        "broadcastDateTime": {
+                            "commissioning": "2018-02-04T21:00Z",
+                            "original": "2018-02-04T21:00Z"
+                        },
+                        "series": 4,
+                        "episode": 5,
+                        "synopses": {
+                            "ninety": "David wants to bring some local flavour to the rep team with Spanish and Flamenco lessons.",
+                            "epg": "This week on the White Isle, head rep David is determined to bring a measure of local flavour to the rep team with Spanish and Flamenco lessons."
+                        },
+                        "guidance": "Contains strong language, adult content and strobe lighting.",
+                        "visuallySigned": false,
+                        "_embedded": {
+                            "categories": [
+                                {
+                                    "name": "Entertainment",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Entertainment"
+                                        }
+                                    }
+                                }
+                            ],
+                            "channel": {
+                                "name": "ITV2",
+                                "strapline": "TV. And then some.",
+                                "_links": {
+                                    "playlist": {
+                                        "href": "http://magni.itv.com/playlist/itvonline/ITV2"
+                                    },
+                                    "primaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+                                    },
+                                    "secondaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "dogImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "backgroundImage": {
+                                        "href": "http://mercury.itv.com/DotCom/episode/sim2/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}"
+                                    },
+                                    "doc:programmes": {
+                                        "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&channelId=itv2"
+                                    }
+                                }
+                            },
+                            "variantAvailability": [
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T22:00Z",
+                                    "until": "2018-03-06T23:59Z",
+                                    "features": [
+                                        "mpeg-dash"
+                                    ],
+                                    "requiresAds": false
+                                },
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T22:00Z",
+                                    "until": "2018-03-06T23:59Z",
+                                    "features": [
+                                        "mpeg-dash",
+                                        "clearkey",
+                                        "progressive"
+                                    ],
+                                    "requiresAds": false
+                                }
+                            ]
+                        },
+                        "_links": {
+                            "image": {
+                                "href": "http://mercury.itv.com/amazonfiretv/production/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}&productionId=2%2F3296%2F0031%23001",
+                                "templated": true
+                            },
+                            "playlist": {
+                                "href": "http://magni.itv.com/playlist/itvonline/ITV2/2_3296_0031.001"
+                            }
+                        }
+                    },
+                    "keywords": []
+                }
+            },
+            {
+                "id": "2/4263",
+                "title": "American Dad!",
+                "synopses": {
+                    "ninety": "The random escapades of Stan Smith, an extreme right wing CIA agent.",
+                    "epg": "The random escapades of Stan Smith, an extreme right wing CIA agent dealing with family life and keeping America safe, all in the most absurd way possible."
+                },
+                "_embedded": {
+                    "productions": {
+                        "count": 7,
+                        "_links": {
+                            "doc:productions": {
+                                "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/productions?broadcaster=itv&programmeId=2_4263"
+                            }
+                        }
+                    },
+                    "latestProduction": {
+                        "productionId": "2/4263/0147#001",
+                        "productionType": "PROGRAMME",
+                        "episodeId": "2/4263/0147",
+                        "episodeTitle": "Spelling Bee My Baby",
+                        "duration": {
+                            "iso8601": "PT30M",
+                            "display": "30 mins"
+                        },
+                        "broadcastDateTime": {
+                            "commissioning": "2018-02-04T00:15Z",
+                            "original": "2016-07-19T22:45Z"
+                        },
+                        "series": 9,
+                        "episode": 14,
+                        "synopses": {
+                            "ninety": "Animated series. Francine tries to rig the school spelling bee so that Steve will win.",
+                            "epg": "Animated series. Francine tries to rig the school spelling bee so that Steve will win. Stan and Roger try to rush Hayley's grieving process."
+                        },
+                        "guidance": "This programme contains adult humour.",
+                        "visuallySigned": false,
+                        "_embedded": {
+                            "categories": [
+                                {
+                                    "name": "Comedy",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Comedy"
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "Entertainment",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Entertainment"
+                                        }
+                                    }
+                                }
+                            ],
+                            "channel": {
+                                "name": "ITV2",
+                                "strapline": "TV. And then some.",
+                                "_links": {
+                                    "playlist": {
+                                        "href": "http://magni.itv.com/playlist/itvonline/ITV2"
+                                    },
+                                    "primaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+                                    },
+                                    "secondaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "dogImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "backgroundImage": {
+                                        "href": "http://mercury.itv.com/DotCom/episode/sim2/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}"
+                                    },
+                                    "doc:programmes": {
+                                        "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&channelId=itv2"
+                                    }
+                                }
+                            },
+                            "variantAvailability": [
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T00:45Z",
+                                    "until": "2018-02-10T23:59Z",
+                                    "features": [
+                                        "mpeg-dash"
+                                    ],
+                                    "requiresAds": true
+                                },
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-04T00:45Z",
+                                    "until": "2018-02-10T23:59Z",
+                                    "features": [
+                                        "mpeg-dash",
+                                        "clearkey",
+                                        "progressive"
+                                    ],
+                                    "requiresAds": true
+                                }
+                            ]
+                        },
+                        "_links": {
+                            "image": {
+                                "href": "http://mercury.itv.com/amazonfiretv/production/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}&productionId=2%2F4263%2F0147%23001",
+                                "templated": true
+                            },
+                            "playlist": {
+                                "href": "http://magni.itv.com/playlist/itvonline/ITV2/2_4263_0147.001"
+                            }
+                        }
+                    },
+                    "keywords": []
+                }
+            },
+            {
+                "id": "2/5460",
+                "title": "Superstore",
+                "synopses": {
+                    "ninety": "Comedy following the lives of a group of employees working at a fictional supermarket.",
+                    "epg": "Comedy following the lives of a group of employees working at 'Cloud 9', a fictional supermarket in St. Louis, Missouri. Together they tackle the day-to-day grind of rabid bargain hunters, riot-causing sales and nap-worthy training sessions."
+                },
+                "_embedded": {
+                    "productions": {
+                        "count": 5,
+                        "_links": {
+                            "doc:productions": {
+                                "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/productions?broadcaster=itv&programmeId=2_5460"
+                            }
+                        }
+                    },
+                    "latestProduction": {
+                        "productionId": "2/5460/0024#002",
+                        "productionType": "PROGRAMME",
+                        "episodeId": "2/5460/0024",
+                        "duration": {
+                            "iso8601": "PT30M",
+                            "display": "30 mins"
+                        },
+                        "broadcastDateTime": {
+                            "commissioning": "2018-02-02T20:30Z",
+                            "original": "2018-02-02T20:30Z"
+                        },
+                        "series": 2,
+                        "episode": 13,
+                        "synopses": {
+                            "ninety": "Rumours spread about the state of Amy's marriage.",
+                            "epg": "Rumours spread about the state of Amy's marriage. In an attempt to cheer Amy up, Dina organises a ladies' lunch and forces everyone to participate."
+                        },
+                        "guidance": "Contains some adult humour.",
+                        "visuallySigned": false,
+                        "_embedded": {
+                            "categories": [
+                                {
+                                    "name": "Comedy",
+                                    "_links": {
+                                        "doc:programmes": {
+                                            "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&category=Comedy"
+                                        }
+                                    }
+                                }
+                            ],
+                            "channel": {
+                                "name": "ITV2",
+                                "strapline": "TV. And then some.",
+                                "_links": {
+                                    "playlist": {
+                                        "href": "http://magni.itv.com/playlist/itvonline/ITV2"
+                                    },
+                                    "primaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+                                    },
+                                    "secondaryImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "dogImage": {
+                                        "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+                                    },
+                                    "backgroundImage": {
+                                        "href": "http://mercury.itv.com/DotCom/episode/sim2/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}"
+                                    },
+                                    "doc:programmes": {
+                                        "href": "http://discovery.hubsvc.itv.com/platform/itvonline/amazonfiretv/programmes?broadcaster=itv&channelId=itv2"
+                                    }
+                                }
+                            },
+                            "variantAvailability": [
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-02T21:00Z",
+                                    "until": "2018-02-09T23:59Z",
+                                    "features": [
+                                        "mpeg-dash"
+                                    ],
+                                    "requiresAds": true
+                                },
+                                {
+                                    "platformTag": "ctv",
+                                    "from": "2018-02-02T21:00Z",
+                                    "until": "2018-02-09T23:59Z",
+                                    "features": [
+                                        "mpeg-dash",
+                                        "clearkey",
+                                        "progressive"
+                                    ],
+                                    "requiresAds": true
+                                }
+                            ]
+                        },
+                        "_links": {
+                            "image": {
+                                "href": "http://mercury.itv.com/amazonfiretv/production/image?q={quality}&format={image_format}&w={width}&h={height}&blur={blur}&bg={bg}&productionId=2%2F5460%2F0024%23002",
+                                "templated": true
+                            },
+                            "playlist": {
+                                "href": "http://magni.itv.com/playlist/itvonline/ITV2/2_5460_0024.002"
+                            }
+                        }
+                    },
+                    "keywords": []
+                }
+            }
+        ]
+    }
+}

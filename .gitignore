@@ -1,0 +1,40 @@
+#standard .gitignore from https://github.com/github/gitignore/blob/master/Node.gitignore
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+
+pids
+logs
+results
+tmp
+
+package-lock.json
+public/styles/bootstrap.css
+public/js/libs/**/*.js
+
+#ignore node generated files
+npm-debug.log
+node_modules
+package-lock.json
+dist
+.npmrc
+
+report
+
+# EDITORS
+atlassian-ide-plugin.xml
+.idea*
+*.iml
+*.swp
+.sublimelinterrc*
+.vscode*
+
+#OS generated files
+__MACOSX
+.DS_Store
