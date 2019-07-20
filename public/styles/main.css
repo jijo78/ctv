@@ -1,14 +1,41 @@
 .programmes h1 {
-    margin-left: 15px;
+  margin-left: 15px;
 }
-.programmes img {
-    float: left;
-    margin-right: 10px;
+.programmes img,
+.programmes div {
+  float: left;
+  margin-right: 30px;
+  width: 100%;
+}
+.programmes div {
+  background-color: #19bec8;
+  padding: 20px;
+  width: 100%;
+  color: white;
 }
 .programmes .list-group-item {
-    clear: both;
-    border: 0;
+  clear: both;
+  border: 0;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
 }
 .programmes h3 {
-    margin-top: 0;
+  margin-top: 0;
+}
+#select-channel {
+  padding: 25px 30px;
+  width: 65%;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  height: 4rem;
+  display: inline-block;
+  margin: 16px;
+}
+.request-error {
+  color: red;
+  margin: 10px 20px;
+  font-weight: bold;
 }

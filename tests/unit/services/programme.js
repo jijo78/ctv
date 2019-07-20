@@ -1,37 +1,39 @@
 import sinon from 'sinon';
-import axios from 'axios';
-import ProgrammeService from '../../../public/js/app/services/programme.js'
+import ProgrammeService from '../../../public/js/app/services/programme.js';
 
 const assert = require('assert');
 
 describe('services > programme', () => {
-    
-    let service;
-    
-    beforeEach(() => {
-        global.axios = sinon.spy();
-        service = new ProgrammeService();
-    });
+  let service;
 
-    afterEach(() => {
-        service = undefined;
-    });
+  beforeEach(() => {
+    global.axios.get = function() {};
+    service = new ProgrammeService();
+  });
 
-    it('should make a programme request by channel', () => {
-        service.get('citv');
-        assert.ok(global.axios.withArgs({
-            method: 'get',
-            url: 'http://discovery.hubsvc.itv.com/platform/itvonline/browser/programmes?channelId=citv&broadcaster=itv',
-            headers: sinon.match.object
-        }).calledOnce);
-    });
+  afterEach(() => {
+    service = undefined;
+  });
 
-    it('should return a promise', () => {
-        global.axios = function() {
-            return 'promise';
-        };
-        var promise = service.get('citv');
-        assert.equal(promise, 'promise');
-    });
+  it('should make a programme request by channel', () => {
+    service.get('citv');
+    assert.ok(
+      global.axios.get(
+        'http://discovery.hubsvc.itv.com/platform/itvonline/browser/programmes?channelId=citv&broadcaster=itv',
+        {
+          headers: {
+            Accept: 'application/vnd.itv.hubsvc.programme.v3+hal+json'
+          }
+        }
+      )
+    ).calledOnce;
+  });
 
+  it('should return a promise', () => {
+    global.axios.get.then(() => {
+      return 'promise';
+    });
+    var promise = service.get('citv');
+    assert.equal(promise, 'promise');
+  });
 });
