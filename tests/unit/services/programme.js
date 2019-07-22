@@ -22,7 +22,7 @@ describe('services > programme', () => {
       global.axios.withArgs({
         method: 'get',
         url:
-          'http://discovery.hubsvc.itv.com/platform/itvonline/browser/programmes?channelId=citv&broadcaster=itv',
+          'http://discovery.hubsvc.itv.com/platform/itvonline/ctv/programmes?channelId=citv&broadcaster=itv&features=hls,aes',
         headers: sinon.match.object
       }).calledOnce
     );

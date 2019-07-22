@@ -4,6 +4,7 @@ class Programmes {
   constructor(parentElement) {
     this.parentElement = parentElement;
   }
+
   show(channel) {
     const element = this.createContainer(channel);
     this.createSelectBox(element, channel);
@@ -11,6 +12,7 @@ class Programmes {
     this.createTitle(element, channel);
     this.loadProgrammes(element, channel);
   }
+
   createContainer(channel) {
     this.disposeContainer();
     const container = document.createElement('div');
@@ -19,6 +21,7 @@ class Programmes {
     this.parentElement.appendChild(container);
     return container;
   }
+
   createTitle(element, channel) {
     const title = document.createElement('h1');
     title.classList.add('programme__channel-title');
@@ -26,12 +29,14 @@ class Programmes {
     title.textContent = `${channel.toUpperCase()} Channel`;
     element.appendChild(title);
   }
+
   disposeContainer() {
     const element = this.parentElement.querySelector('.programmes');
     if (element) {
       parentElement.removeChild(element);
     }
   }
+
   loadProgrammes(element, channel) {
     const service = new ProgrammeService();
     service
@@ -43,6 +48,7 @@ class Programmes {
         this.createRequestError(element, 'Error loading a programme');
       });
   }
+
   createSelectBox(parent) {
     const selectList = document.createElement('select');
     const listGroup = document.getElementsByClassName('list-group');
@@ -59,7 +65,6 @@ class Programmes {
         programmeChannelTitle[i].remove();
       }
       this.createTitle(parent, event.target.value);
-
       this.loadProgrammes(parent, event.target.value);
     });
 
