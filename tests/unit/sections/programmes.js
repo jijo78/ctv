@@ -11,6 +11,7 @@ describe('sections > programmes', () => {
   let dom;
   let document;
   let programmeServiceStub;
+  let buttonClickSuccessSpy;
 
   beforeEach(() => {
     programmeServiceStub = sinon.stub(ProgrammeService, 'default').callsFake(function() {
@@ -25,6 +26,8 @@ describe('sections > programmes', () => {
     global.axios.get = function() {};
     parentElement = dom.window.document.querySelector('.app');
     section = new Programmes(parentElement);
+
+    buttonClickSuccessSpy = sinon.spy();
   });
 
   afterEach(() => {

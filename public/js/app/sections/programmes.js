@@ -116,6 +116,7 @@ class Programmes {
     const latestProduction = item._embedded.latestProduction;
     const latestProductionEmbedded = item._embedded.latestProduction._embedded;
 
+    // I would have probably used moment here to format,just following the
     const date = new Date(latestProduction.broadcastDateTime.commissioning);
     const day = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
     const hours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
