@@ -58,12 +58,16 @@ class Programmes {
 
     selectList.id = 'select-channel';
     selectList.addEventListener('change', event => {
-      for (var i = 0; i < listGroup.length; i++) {
+      // for the following loops probably an helper function
+      // would have helped to avoid DRY
+      for (let i = 0; i < listGroup.length; i++) {
         listGroup[i].remove();
       }
-      for (var i = 0; i < programmeChannelTitle.length; i++) {
+
+      for (let i = 0; i < programmeChannelTitle.length; i++) {
         programmeChannelTitle[i].remove();
       }
+
       this.createTitle(parent, event.target.value);
       this.loadProgrammes(parent, event.target.value);
     });
@@ -121,7 +125,7 @@ class Programmes {
     const latestProduction = item._embedded.latestProduction;
     const latestProductionEmbedded = item._embedded.latestProduction._embedded;
 
-    // I would have probably used moment here to format,just following the
+    // I would have probably used moment here to format.
     const date = new Date(latestProduction.broadcastDateTime.commissioning);
     const day = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
     const hours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();

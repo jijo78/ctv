@@ -39,7 +39,7 @@ describe('sections > programmes', () => {
     programmeServiceStub = undefined;
   });
 
-  it('should render a select channel dropdown with 6 options', done => {
+  it('should render a select channel dropdown with 6 channels options', done => {
     section.show('citv');
 
     setTimeout(() => {
@@ -78,7 +78,7 @@ describe('sections > programmes', () => {
     }, 300);
   });
 
-  it('should render a list of programmes with relative image', done => {
+  it('should render a list of programmes with relative images', done => {
     section.show('citv');
     setTimeout(() => {
       try {
@@ -178,11 +178,11 @@ describe('sections > programmes', () => {
 
     setTimeout(() => {
       try {
-        // retrieving the third element in the mock payload as it has more than one category name
+        // retrieving the third element as it has more than one category name
         const category = document.getElementsByClassName('list-group__category');
         const categoryInner = category[3].querySelectorAll('.list-group__category-name');
 
-        assert.equal(categoryInner.length, 2, 'Number of programme duration rendered');
+        assert.equal(categoryInner.length, 2, 'Number of categories name rendered');
         done();
       } catch (err) {
         done(err);

@@ -1,5 +1,4 @@
 import sinon from 'sinon';
-import axios from 'axios';
 import ProgrammeService from '../../../public/js/app/services/programme.js';
 
 const assert = require('assert');
